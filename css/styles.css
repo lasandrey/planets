@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 916px;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-top: 100px;
+}
+
+a {
+    color: blue;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.conteiner {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.header-flag {
+    transform: scale(1, -1);
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    .align-right, h1, h2, div {
+    text-align: center;
+    }
+
+    .planets p {
+    text-align: left;
+    }
+}
